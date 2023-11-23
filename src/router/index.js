@@ -12,7 +12,7 @@ const router = createRouter({
 		{
 			path: '/producto',
 			name: 'producto',
-			component: () => import('../views/productos.vue'),
+			component: () => import('../views/Productos.vue'),
 		},
 		{
 			path: '/galeria',
