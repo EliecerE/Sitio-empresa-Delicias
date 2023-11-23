@@ -12,8 +12,8 @@
 				alt="Delicioso" />
 		</h1>
 		<RouterLink
-			to="/productos"
-			class="btnProductos"
+			to="/galeria"
+			class="galeria"
 			>Ir a productos</RouterLink
 		>
 	</main>

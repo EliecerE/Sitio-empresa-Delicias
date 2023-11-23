@@ -18,11 +18,6 @@
 					>Home</RouterLink
 				>
 				<RouterLink
-					to="/producto"
-					class="navbar__link"
-					>Productos</RouterLink
-				>
-				<RouterLink
 					to="/galeria"
 					class="navbar__link"
 					>Galeria</RouterLink
