@@ -4,7 +4,7 @@
 
 <template>
 	<div class="hero"></div>
-	<main class="main">
+	<main class="main-bienvenida">
 		<h1 class="titulo">
 			Bienvenido a <span>Alimentos con Pasión</span>
 			<img
@@ -13,7 +13,7 @@
 		</h1>
 		<RouterLink
 			to="/galeria"
-			class="galeria"
+			class="btnProductos"
 			>Ir a productos</RouterLink
 		>
 	</main>
@@ -35,7 +35,8 @@
 			height: 150px;
 		}
 
-				.main{
+				.main-bienvenida{
+					text-align: center;
 					background: #fff;
 					max-width: 1000px;
 					margin: 0 auto;
@@ -69,6 +70,7 @@
 		color: indigo;
 		animation: cambioColores 8s ease infinite;
 		box-shadow: 0 0 3px rgb(52, 52, 52);
+		transition: font-size .7s ease;
 	}
 
 	 @keyframes cambioColores {
@@ -91,5 +93,9 @@
 				 color: crimson;
 	     }
 	   }
+
+		 .btnProductos:hover{
+			font-size: 2.3rem;
+		 }
 </style>
 

@@ -4,11 +4,11 @@
 
 <template>
 	<header class="header">
-		<div style="width: 50px; height: 50px;">
+		<div style="width: 120px; height: 120px;">
 			<img
 				alt="Vue logo"
 				class="logo"
-				src="@/assets/logo.svg" />
+				src="@/assets/logo_empresa.jpeg" />
 		</div>
 		<div class="boxNavbar">
 			<nav class="navbar">
@@ -16,6 +16,11 @@
 					to="/"
 					class="navbar__link"
 					>Home</RouterLink
+				>
+				<RouterLink
+					to="/productos"
+					class="navbar__link"
+					>Productos</RouterLink
 				>
 				<RouterLink
 					to="/galeria"
@@ -41,7 +46,7 @@
 
 <style scoped>
 	.header{
-		padding: 1rem;
+		padding: .5rem;
 		display: flex;
 		flex-flow: row wrap;
 		justify-content: space-between;
