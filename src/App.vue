@@ -18,9 +18,9 @@
 					>Home</RouterLink
 				>
 				<RouterLink
-					to="/productos"
+					to="/inicio"
 					class="navbar__link"
-					>Productos</RouterLink
+					>Inicio</RouterLink
 				>
 				<RouterLink
 					to="/galeria"
@@ -74,6 +74,10 @@
 	.navbar__link{
 		padding: .2rem 1.5rem;
 		border-radius: 3px;
+	}
+
+	.navbar__link:link{
+		color: darkmagenta;
 	}
 	.navbar__link:hover{
 		background-color: rgb(232, 121, 41);

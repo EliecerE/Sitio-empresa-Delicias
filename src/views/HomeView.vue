@@ -14,7 +14,7 @@
 		<RouterLink
 			to="/galeria"
 			class="btnProductos"
-			>Ir a productos</RouterLink
+			>Ir a inicio</RouterLink
 		>
 	</main>
 </template>
