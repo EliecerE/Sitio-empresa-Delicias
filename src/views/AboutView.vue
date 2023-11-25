@@ -11,7 +11,11 @@
 			</p>
 		</div>
 
-		<h2 class="imgQuienesomos">Holaaaaaaaa</h2>
+		<div class="imgQuienesomos">
+			<img
+				src="@/assets/logo_empresa.jpeg"
+				alt="" />
+		</div>
 	</main>
 </template>
 
@@ -34,7 +38,7 @@
 		}
 
 	.boxMain{
-	width: 60%;
+	width: 50%;
 	& p{
 		text-align: justify;
 	}
@@ -46,6 +50,11 @@
 			background-color: rgba(0, 255, 255, 0.706);
 			text-align: center;
 			border: 4px;
+		}
+
+		.imgQuienesomos{
+			widows: 40%;
+			box-shadow: 0 0 4px grey;
 		}
 </style>
 

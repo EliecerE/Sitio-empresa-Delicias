@@ -12,7 +12,7 @@
 				alt="Delicioso" />
 		</h1>
 		<RouterLink
-			to="/galeria"
+			to="/inicio"
 			class="btnProductos"
 			>Ir a inicio</RouterLink
 		>

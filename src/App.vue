@@ -54,6 +54,7 @@
 		min-height: 10vh;
 		background-color: burlywood;
 		margin-bottom: 3rem;
+		border-bottom: 2px solid gray;
 	}
 
 	.boxNavbar{
