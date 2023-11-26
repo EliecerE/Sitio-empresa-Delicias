@@ -4,7 +4,7 @@
 	<div class="footer">
 		<div class="autores">
 			<h1>Autores:</h1>
-			<h2>Elicer Escudero,</h2>
+			<h2>Eliecer Escudero,</h2>
 			<h2>Katyusca Ortega</h2>
 		</div>
 		<div class="fechaCreacion">Fecha de creación: Miercoles, 22 de noviembre</div>

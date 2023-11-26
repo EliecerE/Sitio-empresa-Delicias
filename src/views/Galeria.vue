@@ -13,6 +13,54 @@
 			</div>
 		</div>
 
+		<h2 class="tituloMusica">Musica</h2>
+		<div class="musicaBox">
+			<div class="musica">
+				<div>
+					<img
+						src="/imagenesCover/cover1.jpg"
+						alt="Portada del Álbum" />
+				</div>
+
+				<audio controls>
+					<source
+						src="/musica/JujutsuOP.mp3"
+						type="audio/mp3" />
+					Tu navegador no soporta el elemento de audio.
+				</audio>
+			</div>
+
+			<div class="musica">
+				<div>
+					<img
+						src="/imagenesCover/cover2.jpg"
+						alt="Portada del Álbum" />
+				</div>
+
+				<audio controls>
+					<source
+						src="/musica/KimetsuOP.mp3"
+						type="audio/mp3" />
+					Tu navegador no soporta el elemento de audio.
+				</audio>
+			</div>
+
+			<div class="musica">
+				<div>
+					<img
+						src="/imagenesCover/cover3.jpg"
+						alt="Portada del Álbum" />
+				</div>
+
+				<audio controls>
+					<source
+						src="/musica/Avicii - The Nights.mp3"
+						type="audio/mp3" />
+					Tu navegador no soporta el elemento de audio.
+				</audio>
+			</div>
+		</div>
+
 		<mi-footer></mi-footer>
 	</main>
 </template>
@@ -45,11 +93,20 @@
 		body{
 		  background-color: #663399;
 		}
-		.titulo{
-			font-size: 4.5rem;
+
+
+		.titulo, .tituloMusica {
+			font-size: 5rem;
 			text-align: center;
-			border-bottom: 4px solid rgb(233, 179, 98);
+			border-bottom: 4px solid rgb(145, 101, 34);
 			margin-bottom: 1rem;
+			background-color: #d4c0e7;
+		}
+
+		.tituloMusica{
+			margin-top: 5rem;
+			border-bottom: 4px solid rgb(41, 34, 145);
+			background-color: #c0e7d1;
 		}
 
 	.galeriaBox{
@@ -70,5 +127,27 @@
 	  border-radius: 8px;
 		}
 		}
+	}
+	.musicaBox{
+		background-color: rgb(0, 255, 136);
+		display: flex;
+		flex-flow: row wrap ;
+		justify-content: space-between;
+		gap: 0 1rem;
+
+				img{
+			max-width: 210px;
+			height: 100%;
+		}
+	}
+
+	.musica{
+		background-color: rgb(154, 188, 19);
+		padding: 1rem;
+		border: 3px;
+		display: flex;
+		flex-flow: column wrap;
+		justify-content: space-between;
+		align-items: center;
 	}
 </style>
