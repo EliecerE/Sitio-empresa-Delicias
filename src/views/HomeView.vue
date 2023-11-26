@@ -1,5 +1,24 @@
-<script setup>
-	import { RouterLink } from 'vue-router';
+<script>
+		import { RouterLink } from 'vue-router';
+
+	export default {
+	  mounted() {
+	    // Esta función se ejecutará cuando el componente se haya montado en el DOM
+	    this.miFuncionAlInicio();
+	  },
+	  methods: {
+	    miFuncionAlInicio() {
+	        this.$swal(
+				{
+	  title: '¡Hola Bienvenido a nuestro sitio web, sigue navegando para mas!',
+	     html: '<iframe src="https://giphy.com/embed/11JTxkrmq4bGE0" width="480" height="369" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>',
+			 width: 900,
+	     confirmButtonText: 'Entendido'
+					}
+			 );
+	    }
+	  }
+	}
 </script>
 
 <template>
@@ -41,7 +60,7 @@
 					max-width: 1000px;
 					margin: 0 auto;
 					box-shadow: -1px 4px 2px rgb(255, 216, 161);
-					animation: slidein 2s ease-in-out  ;
+					animation: slidein 5s ease-in-out  ;
 				}
 
 			@keyframes slidein {

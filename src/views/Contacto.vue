@@ -1,5 +1,5 @@
 <template>
-	<div>
+	<main class="main">
 		<h1>Contacto</h1>
 		<div>
 			<iframe
@@ -11,9 +11,20 @@
 				loading="lazy"
 				referrerpolicy="no-referrer-when-downgrade"></iframe>
 		</div>
-	</div>
+
+		<mi-footer></mi-footer>
+	</main>
 </template>
 
-<script setup></script>
+<script>
+		import footer from '../components/Footer.vue';
+
+	export default {
+		components: {
+			 // Registra el componente MiComponente para su uso en este componente
+			 'mi-footer': footer
+		 }
+	}
+</script>
 
 <style lang="scss" scoped></style>
