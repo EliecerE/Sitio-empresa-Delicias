@@ -8,6 +8,5 @@ const app = createApp(App);
 
 app.use(router);
 app.use(VueSweetalert2);
-
 app.mount('#app');
 
