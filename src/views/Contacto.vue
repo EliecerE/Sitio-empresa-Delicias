@@ -32,8 +32,8 @@
 					</h3>
 					<h3>
 						Email
-						<a href="mailto:elicerescudero687@gmail.com"
-							>elicerescudero687@gmail.com<svg
+						<a href="mailto:eliecerescudero687@gmail.com"
+							>eliecerescudero687@gmail.com<svg
 								xmlns="http://www.w3.org/2000/svg"
 								height="1em"
 								viewBox="0 0 512 512">
@@ -132,16 +132,16 @@
 </template>
 
 <script>
-						import footer from '../components/Footer.vue';
+								import footer from '../components/Footer.vue';
 	import formulario from '../components/Formulario.vue';
 
-					export default {
-						components: {
-							 // Registra el componente MiComponente para su uso en este componente
-							 'mi-footer': footer,
-							 'mi-formulario': formulario
-						 }
-					}
+							export default {
+								components: {
+									 // Registra el componente MiComponente para su uso en este componente
+									 'mi-footer': footer,
+									 'mi-formulario': formulario
+								 }
+							}
 </script>
 
 <style lang="scss" scoped>
