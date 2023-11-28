@@ -132,16 +132,16 @@
 </template>
 
 <script>
-				import footer from '../components/Footer.vue';
+						import footer from '../components/Footer.vue';
 	import formulario from '../components/Formulario.vue';
 
-			export default {
-				components: {
-					 // Registra el componente MiComponente para su uso en este componente
-					 'mi-footer': footer,
-					 'mi-formulario': formulario
-				 }
-			}
+					export default {
+						components: {
+							 // Registra el componente MiComponente para su uso en este componente
+							 'mi-footer': footer,
+							 'mi-formulario': formulario
+						 }
+					}
 </script>
 
 <style lang="scss" scoped>
@@ -166,12 +166,12 @@
 
 
 					.boxUsuarios{
-						height: 70vh;
+						min-height: 70vh;
 			display: flex;
 			flex-flow: row wrap;
 			justify-content: center;
 			align-items: center;
-			gap: 0 6rem;
+			gap: 1.2rem 6rem;
 					}
 
 		.usuario{
