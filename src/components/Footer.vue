@@ -6,6 +6,7 @@
 			<h1>Autores:</h1>
 			<h2>Eliecer Escudero,</h2>
 			<h2>Katyusca Ortega</h2>
+			<h2>Christell Zepeda</h2>
 		</div>
 		<div class="fechaCreacion">Fecha de creación: Miercoles, 22 de noviembre</div>
 		&copy; Todos los derechos reservados 2023
